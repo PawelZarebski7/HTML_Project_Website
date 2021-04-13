@@ -31,6 +31,91 @@
             </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
+        <div class="text-box">
+            <h1>World's Biggest Cargo</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, neque!</p>
+            <a href="#" class="main-btn">Visit Us</a>
+        </div>
     </section>
+
+    <section class="offer">
+        <h1>What We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, illum!</p>
+        <div class="row">
+            <div class="offer-col">
+                <h3>Sea Queen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, distinctio?</p>
+            </div>
+            <div class="offer-col">
+                <h3>Wind Marry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, distinctio?</p>
+            </div>
+            <div class="offer-col">
+                <h3>Wizard</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, distinctio?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="flota">
+        <h1>Our Ships</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+
+        <div class="row">
+            <div class="flota-col">
+                <img src="./assets/ship_1.jpg" alt="ship">
+                <div class="flota-name">
+                    <h3>Sea Queen</h3>
+                </div>
+            </div>
+            <div class="flota-col">
+                <img src="./assets/ship_2.jpg" alt="ship">
+                <div class="flota-name">
+                    <h3>Wind Marry</h3>
+                </div>
+            </div>
+            <div class="flota-col">
+                <img src="./assets/ship_3.jpg" alt="ship">
+                <div class="flota-name">
+                    <h3>Vizard</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3 class="flota">Contact With Us</h3>
+
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-250px"
+        }
+    </script>
 </body>
 </html>
